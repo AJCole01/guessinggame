@@ -5,12 +5,12 @@ num_lines=$( ls | wc -l)
 guess=0
 
 function guess_lines {
-	if [[$guess -lt $num_lines ]]
+	if [[ $guess -lt $num_lines ]]
 	then
-		echo 'Your guess is lower than the amount of files.'
+		echo 'Your guess is low.'
 	elif [[ $guess -gt $num_lines ]]
 	then
-		echo 'Your guess is higher than the amount of files.'
+		echo 'Your guess is high.'
 	else
 		'You guessed correctly!'
 	fi
