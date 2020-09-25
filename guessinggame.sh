@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # File: guessinggame.sh
 
 num_lines=$( ls | wc -1)
