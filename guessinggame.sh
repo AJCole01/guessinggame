@@ -12,7 +12,7 @@ function guess_lines {
 	then
 		echo 'Your guess is high.'
 	else
-		'You guessed correctly!'
+		echo 'You guessed correctly!'
 	fi
 }
 
